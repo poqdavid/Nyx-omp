@@ -201,7 +201,7 @@
                     },
                     "style": "plain",
                     "template": "\u2516",
-                    "type": "exit"
+                    "type": "status"
                 },
                 {
                     "foreground": "#e0f8ff",
@@ -225,7 +225,7 @@
                     },
                     "style": "plain",
                     "template": "\u2500\ueaf4 ",
-                    "type": "exit"
+                    "type": "status"
                 }
             ],
             "type": "prompt"
