@@ -130,7 +130,7 @@
                         "{{if eq \"Full\" .State.String}}#33DD2D{{end}}"
                     ],
                     "properties": {
-                        "charged_icon": "\uf58e ",
+                        "charged_icon": "\udb80\udc8f ",
                         "charging_icon": "<f>\ue234</f> ",
                         "discharging_icon": "<d>\ue234</d> "
                     },
@@ -156,7 +156,7 @@
                 {
                     "foreground": "#55ffff",
                     "style": "plain",
-                    "template": "<#7eb8da>[</><d>\uf64f</d> {{ .CurrentDate | date .Format }}<#7eb8da>]</><d>\u2500</d>",
+                    "template": "<#7eb8da>[</><d>\uf43a </d> {{ .CurrentDate | date .Format }}<#7eb8da>]</><d>\u2500</d>",
                     "type": "time"
                 },
                 {
@@ -165,7 +165,7 @@
                         "always_enabled": true
                     },
                     "style": "plain",
-                    "template": "<#7eb8da>[</><d>\ufa1e</d>{{ .FormattedMs }}<#7eb8da>]\u251B</>",
+                    "template": "<#7eb8da>[</><d>\udb86\udd9f</d> {{ .FormattedMs }}<#7eb8da>]\u251B</>",
                     "type": "executiontime"
                 }
             ],
